@@ -1,5 +1,5 @@
-SELECT * FROM purchase_orders
-WHERE notes LIKE '%purchase%' AND '3_';
+SELECT notes FROM purchase_orders
+WHERE notes LIKE '%3_';
 
 
 -- Exiba os dados da coluna notes da tabela purchase_orders em que seu valor de 

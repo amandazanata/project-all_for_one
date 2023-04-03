@@ -1,3 +1,3 @@
-SELECT COUNT(*) FROM products;
+SELECT COUNT(product_name) FROM products;
 
---Conte quantos registros existem na coluna product_name da tabela products.
+-- Conte quantos registros existem na coluna product_name da tabela products.
